@@ -5,24 +5,24 @@ A cidade de Coden é composta por várias intersecções e estradas. As intersec
 Você deve implementar um programa que leia os dados de N intersecções, M estradas e calcule o menor tempo de viagem entre uma intersecção inicial e uma intersecção final utilizando o algoritmo de Dijkstra.
 Entrada
 
-    A primeira linha contém dois inteiros, N (1 ≤ N ≤ 1000) e M (1 ≤ M ≤ 10000), representando o número de intersecções e o número de estradas, respectivamente.
-    As próximas M linhas contêm três inteiros u, v e w (1 ≤ u, v ≤ N; 1 ≤ w ≤ 1000), onde u e v são intersecções conectadas por uma estrada bidirecional e w é o tempo de viagem entre elas.
-    A última linha contém dois inteiros, S e T (1 ≤ S, T ≤ N), representando as intersecções inicial e final.
+A primeira linha contém dois inteiros, N (1 ≤ N ≤ 1000) e M (1 ≤ M ≤ 10000), representando o número de intersecções e o número de estradas, respectivamente.
+As próximas M linhas contêm três inteiros u, v e w (1 ≤ u, v ≤ N; 1 ≤ w ≤ 1000), onde u e v são intersecções conectadas por uma estrada bidirecional e w é o tempo de viagem entre elas.
+A última linha contém dois inteiros, S e T (1 ≤ S, T ≤ N), representando as intersecções inicial e final.
 
 Saída
 
-    Imprima o menor tempo de viagem entre S e T. Se não for possível chegar de S a T, imprima -1.
+Imprima o menor tempo de viagem entre S e T. Se não for possível chegar de S a T, imprima -1.
 
 Exemplo de Entrada
 
-5 6
-1 2 10
-1 3 5
-2 4 1
-3 4 8
-3 5 2
-4 5 6
-1 5
+    5 6
+    1 2 10
+    1 3 5
+    2 4 1
+    3 4 8
+    3 5 2
+    4 5 6
+    1 5
 
 Exemplo de Saída
 
